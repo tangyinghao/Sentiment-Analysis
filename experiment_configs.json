@@ -1,0 +1,63 @@
+[
+    {
+        "experiment_name": "Base_BERT_16_2e5",
+        "model_name": "bert-base-uncased",
+        "batch_size": 16,
+        "learning_rate": 2e-5,
+        "num_epochs": 3,
+        "max_length": 512,
+        "warmup_steps": 0,
+        "weight_decay": 0.01
+    },
+    {
+        "experiment_name": "Base_BERT_32_2e5",
+        "model_name": "bert-base-uncased",
+        "batch_size": 32,
+        "learning_rate": 2e-5,
+        "num_epochs": 3,
+        "max_length": 512,
+        "warmup_steps": 0,
+        "weight_decay": 0.01
+    },
+    {
+        "experiment_name": "Base_BERT_16_1e5",
+        "model_name": "bert-base-uncased",
+        "batch_size": 16,
+        "learning_rate": 1e-5,
+        "num_epochs": 3,
+        "max_length": 512,
+        "warmup_steps": 0,
+        "weight_decay": 0.01
+    },
+    {
+        "experiment_name": "Base_BERT_16_3e5",
+        "model_name": "bert-base-uncased",
+        "batch_size": 16,
+        "learning_rate": 3e-5,
+        "num_epochs": 3,
+        "max_length": 512,
+        "warmup_steps": 0,
+        "weight_decay": 0.01
+    },
+    {
+        "experiment_name": "DistilBERT_16_2e5",
+        "model_name": "distilbert-base-uncased",
+        "batch_size": 16,
+        "learning_rate": 2e-5,
+        "num_epochs": 3,
+        "max_length": 512,
+        "warmup_steps": 0,
+        "weight_decay": 0.01
+    },
+    {
+        "experiment_name": "Base_BERT_16_2e5_5epochs",
+        "model_name": "bert-base-uncased",
+        "batch_size": 16,
+        "learning_rate": 2e-5,
+        "num_epochs": 5,
+        "max_length": 512,
+        "warmup_steps": 0,
+        "weight_decay": 0.01
+    }
+]
+
